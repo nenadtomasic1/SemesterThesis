@@ -1,7 +1,7 @@
 # SemesterThesis
 Semester Thesis: On Importance Sampling for Surrogate Model Construction
 
-##########################################################################################################################
+###############################################################################
 # FILES NEEDED:
 
 In the directory are a number of json files, incl. a directory LF-200/ with json files.
@@ -11,10 +11,23 @@ These files should not be changed.
 The main driver file is extract_result.py
 
 
-##########################################################################################################################
+###############################################################################
 # HOW TO RUN?
 
-There are 2 ways to run the calculation
+In order to run you need a python3 installation with at least version 3.6.8.
+In addition you will need to install additional python libraries 
+	-numpy 
+	-matplotlib
+	-scipy
+
+pip3 install numpy
+pip3 install scipy
+pip3 install matplotlib
+
+Once installed you can run the calculation.
+
+There are 2 ways to run the calculation.
+
 
 1) Without Parameter
 
@@ -27,9 +40,9 @@ python3 extract_result.py  -e 0.10697266120665758
 
 
 The parameter -e <VALUE> corresponds to the epslion value in the script in the scetion 3.4 and 5.5.
-	
 
-##########################################################################################################################
+
+################################################################################
 # DISPLAYED RESULTS:
 
 The displayed results will look like this
